@@ -100,14 +100,16 @@ div {
   grid-template-rows: 55px 200px 40px 40px 40px 40px 40px;
   gap: 20px;
   grid-template-areas:
-    "vorwortzwei"
+    "vorwort"
+    "bio2"
+    "home"
     "onepage"
     "bubble"
     "webflow"
   ;
 }
 
-.Vorwort2 {
+.Vorwort {
   grid-area: vorwortzwei;
   background-color: gray;
   text-align: center;
