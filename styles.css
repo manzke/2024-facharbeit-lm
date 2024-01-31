@@ -23,11 +23,6 @@ a {
   overflow: hidden;
 }
 
-a:hover {
-  background-color: darkgray;
-  color: lightgray;
-}
-
 div {
   height: 100%;
 }
@@ -53,6 +48,11 @@ div {
   transition-duration: 0.4s;
 }
 
+.schule:hover {
+  background-color: darkgray;
+  color: lightgray;
+}
+
 .tool {
   grid-area: tool;
   background-color: lightgray;
@@ -60,6 +60,11 @@ div {
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
+}
+
+.tool:hover {
+  background-color: darkgray;
+  color: lightgray;
 }
 
 .bedingungen {
@@ -83,6 +88,11 @@ div {
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
+}
+
+.thema:hover {
+  background-color: darkgray;
+  color: lightgray;
 }
 
 .grid-container-vorwort {
@@ -122,6 +132,11 @@ div {
   transition-duration: 0.4s;
 }
 
+.Home:hover {
+  background-color: darkgray;
+  color: lightgray;
+}
+
 .OnePage {
   grid-area: onepage;
   background-color: lightgray;
@@ -129,6 +144,11 @@ div {
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
+}
+
+.OnePage:hover {
+  background-color: darkgray;
+  color: lightgray;
 }
 
 .Bubble {
@@ -140,6 +160,11 @@ div {
   transition-duration: 0.4s;
 }
 
+.Bubble:hover {
+  background-color: darkgray;
+  color: lightgray;
+}
+
 .Webflow {
   grid-area: webflow;
   background-color: lightgray;
@@ -147,4 +172,9 @@ div {
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
+}
+
+.Webflow:hover {
+  background-color: darkgray;
+  color: lightgray;
 }
