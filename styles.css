@@ -23,6 +23,11 @@ a {
   overflow: hidden;
 }
 
+a:hover {
+  background-color: darkgray;
+  color: lightgray;
+}
+
 div {
   height: 100%;
 }
@@ -48,11 +53,6 @@ div {
   transition-duration: 0.4s;
 }
 
-.schule:hover {
-  background-color: darkgray;
-  color: lightgray;
-}
-
 .tool {
   grid-area: tool;
   background-color: lightgray;
@@ -60,11 +60,6 @@ div {
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
-
-  :hover {
-    background-color: darkgray;
-    color: lightgray;
-  }
 }
 
 .bedingungen {
@@ -73,12 +68,13 @@ div {
   color: black;
   text-align: center;
   border-radius: 12px;
-  transition-duration: 0.4s;
-  :hover {
-    background-color: darkgray;
-    color: lightgray;
-  }  
+  transition-duration: 0.4s; 
 }
+
+.bedingungen:hover {
+  background-color: darkgray;
+  color: lightgray;
+} 
 
 .thema {
   grid-area: thema;
@@ -87,10 +83,6 @@ div {
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
-  :hover {
-    background-color: darkgray;
-    color: lightgray;
-  }
 }
 
 .grid-container-vorwort {
