@@ -1,109 +1,24 @@
-.grid-container{
+.grid-container {
   justify-content: center;
   display: grid;
-  grid-template-columns:500px;
-  grid-template-rows:55px 55px 40px 40px 40px 40px 40px;
-  gap:20px;
+  grid-template-columns: 500px;
+  grid-template-rows: 55px 55px 40px 40px 40px 40px 40px;
+  gap: 20px;
   grid-template-areas:
-  "überschirft"
-  "bio"
-  "schule"
-  "tool"
-  "bedingungen"
-  "thema"
-  "sechs"
+    "überschrift"
+    "bio"
+    "schule"
+    "tool"
+    "bedingungen"
+    "thema"
+    "sechs"
   ;
-}
-
-a {
-  overflow: hidden;
-}
-
-div {
-  height: 100%;
-}
-
-.überschrift{
-  grid-area:überschrift;
-  background-color: gray;
-  text-align: center;
-}
-
-.bio{
-  grid-area:bio;
-  background-color: gray;
-  text-align: center;
-}
-
-.schule{
-grid-area:schule;
-background-color: lightgray;
-color:black;
-text-align: center;
-border-radius: 12px;
-transition-duration: 0.4s;
-}
-.schule:hover{
-  background-color: darkgray;
-  color:lightgray;
-}
-
-.tool{
-  grid-area:tool;
-  background-color: lightgray;
-  color:black;
-    text-align: center;
-  border-radius: 12px;
-  transition-duration: 0.4s;    
-}
-.tool:hover{
-  background-color: darkgray;
-  color:lightgray;
-}
-.bedingungen{
-  grid-area:bedingungen;
-  background-color: lightgray;
-  color:black;
-  text-align: center;
-  border-radius: 12px;
-  transition-duration: 0.4s;
-}
-.bedingungen:hover{
-  background-color: darkgray;
-  color:lightgray;
-}
-.thema{
-  grid-area:thema;
-  background-color: lightgray;
-  color:black;
-  text-align: center;
-  border-radius: 12px;
-  transition-duration: 0.4s;
-}
-.thema:hover{
-  background-color: darkgray;
-  color:lightgray;
 }
 
 html {
   background-color: gray;
 }
 
-
-.grid-container{
-  justify-content: center;
-  display: grid;
-  grid-template-columns:500px;
-  grid-template-rows:55px 55px 40px 40px 40px 40px 40px;
-  gap:20px;
-  grid-template-areas:
-  "vorwortzwei"
-  "onepage"
-  "bubble"
-  "webflow"
-  ;
-}
-
 a {
   overflow: hidden;
 }
@@ -112,38 +27,129 @@ div {
   height: 100%;
 }
 
-.Vorwort2{
-  grid-area:vorwortzwei;
+.überschrift {
+  grid-area: überschrift;
   background-color: gray;
   text-align: center;
 }
 
-.bio2{
-  grid-area:bio;
+.bio {
+  grid-area: bio;
   background-color: gray;
   text-align: center;
 }
 
-.OnePage{
-  grid-area:onepage;
+.schule {
+  grid-area: schule;
   background-color: lightgray;
-  color:black;
+  color: black;
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
 }
-.Bubble{
-  grid-area:bubble;
+
+.schule:hover {
+  background-color: darkgray;
+  color: lightgray;
+}
+
+.tool {
+  grid-area: tool;
   background-color: lightgray;
-  color:black;
+  color: black;
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
+
+  :hover {
+    background-color: darkgray;
+    color: lightgray;
   }
-.Webflow{
-  grid-area:webflow;
+}
+
+.bedingungen {
+  grid-area: bedingungen;
   background-color: lightgray;
-  color:black;
+  color: black;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  :hover {
+    background-color: darkgray;
+    color: lightgray;
+  }  
+}
+
+.thema {
+  grid-area: thema;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  :hover {
+    background-color: darkgray;
+    color: lightgray;
+  }
+}
+
+.grid-container-vorwort {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 55px 200px 40px 40px 40px 40px 40px;
+  gap: 20px;
+  grid-template-areas:
+    "vorwortzwei"
+    "onepage"
+    "bubble"
+    "webflow"
+  ;
+}
+
+.Vorwort2 {
+  grid-area: vorwortzwei;
+  background-color: gray;
+  text-align: center;
+}
+
+.bio2 {
+  grid-area: bio;
+  background-color: gray;
+  text-align: center;
+}
+
+.Home {
+  grid-area: onepage;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.OnePage {
+  grid-area: onepage;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.Bubble {
+  grid-area: bubble;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.Webflow {
+  grid-area: webflow;
+  background-color: lightgray;
+  color: black;
   text-align: center;
   border-radius: 12px;
   transition-duration: 0.4s;
